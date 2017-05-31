@@ -18,7 +18,7 @@ a:hover {
   left: 0;
   right: 0;
   padding: 10px;
-  background-color: #EEEEEE;
+  background-color: #427df4;
   border-bottom: 1px solid #DDDDDD;
 }
 
@@ -46,6 +46,26 @@ a:hover {
   padding: 0;
 }
 
+
+[class*="col-"] {
+text-align: center;
+
+}
+
+[class*="struct-"] {
+display: inline-block;
+margin: 0 auto;
+
+}
+
 .img-circle {
     border-radius: 50%;
+    border: solid black 2px;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+}
+
+main {
+	padding-top: 50px;
 }
